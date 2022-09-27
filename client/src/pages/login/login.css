@@ -1,0 +1,71 @@
+.login{
+    color: white;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(223, 7, 104, 0.6), rgba(0, 0, 0, 0.9)), url(https://images.pexels.com/photos/4549414/pexels-photo-4549414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label{
+    margin: 10px 0px;
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.loginbtn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    outline: none;
+}
+.loginbtn:disabled{
+    cursor: not-allowed;
+    background-color: red;
+
+}
+.loginbtn:hover{
+    background-color: aqua;
+}
+.loginbtn:focus{
+    outline-style: none;
+}
+.loginInner{
+    width: 30%;
+}
+.registerbtn{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: aqua;
+    cursor: pointer;
+    border: none;
+    color: tomato;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.registerbtn:hover{
+    background-color: tomato;
+    color: white;
+}

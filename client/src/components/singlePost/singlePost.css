@@ -1,0 +1,94 @@
+.singlePost{
+    flex: 9;
+}
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.singlepostImage{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.singlepostTitle{
+    text-align: center;
+    font-family: 'lora', sans-serif;
+    margin: 10px;
+}
+.singlepostEdit{
+    float: right;
+    font-size: 16px;
+}
+.singlepostIcon{
+    margin-left: 12px;
+    cursor: pointer;
+    color: red;
+}
+.singlepostIcon:first-child{
+    color: teal;
+}
+.singlepostIcon:hover{
+    color: tomato;
+    transform: scale(1.5);
+    transition: 0.2s all ease;
+}
+.singlepostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #ea9556;
+    font-family: 'Varela', sans-serif;
+    padding: 0px 100px;
+}
+.singlepostDesc{
+    color: #666;
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+.singlepostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.singlepostTitleInput{
+    margin: 10px;
+    text-align: center;
+    font-family: 'lora', sans-serif;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    /* width: 70%; */
+    border: none;
+    border-bottom: lightgray;
+}
+.singlepostTitleInput:focus{
+    outline: none;
+}
+.singlepostDescInput{
+    border: none;
+    color: #666;
+    font-size: 1.2rem;
+    line-height: 25px;
+    width: 80%;
+
+}
+
+.singlepostButton{
+    border: none;
+    width: 10rem;
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    align-self: flex-end;
+    margin: 1rem 6rem 0.5rem 0rem;
+
+}
